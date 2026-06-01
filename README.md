@@ -94,14 +94,6 @@ The pipeline consists of 2 main branches:
 
 ---
 
-## Key Findings
-
-- **Sentiment Score significantly improves prediction** — adding it boosted accuracy by +18.9%
-- **COVID-19 impact visible** — SET Index dropped sharply in 2020, visible in Line Plot
-- **Positive sentiment correlates with UP days**, negative sentiment correlates with DOWN days
-- Thai social media reflects investor psychology that influences market direction
-
----
 
 ## Special Techniques Used
 
@@ -115,14 +107,6 @@ The pipeline consists of 2 main branches:
 
 ---
 
-## Limitations & Future Work
-
-- Wisesight Corpus is general Thai text — using stock-specific tweets/Pantip posts would improve accuracy
-- Random Forest and GBT showed overfitting — needs regularization or reduced max_depth
-- Future: replace TF-IDF with **WangchanBERTa** (Thai BERT) for better sentiment understanding
-- Add fundamental indicators (P/E ratio, trading volume) for richer features
-
----
 
 ## Tech Stack
 
